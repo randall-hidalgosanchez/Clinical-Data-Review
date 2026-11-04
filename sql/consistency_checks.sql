@@ -1,0 +1,2 @@
+-- Add cross-field and cross-table consistency checks here.
+-- Define applicable clinical rules before writing executable queries.

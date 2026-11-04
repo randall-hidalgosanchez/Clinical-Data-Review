@@ -1,0 +1,2 @@
+-- Add dataset-specific data quality checks here.
+-- Define the table and expected schema before writing executable queries.
