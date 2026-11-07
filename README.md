@@ -22,4 +22,4 @@ sharing.
 This repository is a scaffold; no dataset schema or clinical rules are assumed.
 Document the expected input columns and validation rules before using it with
 real data. Initialize and snapshot the project's R dependencies with `renv`
-when dependencies are selected.
+when dependencies are selected. For python/conda use: conda env export --from-history > python/environment.yml
