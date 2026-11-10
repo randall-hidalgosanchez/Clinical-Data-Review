@@ -1,4 +1,15 @@
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# data
+data/raw/
