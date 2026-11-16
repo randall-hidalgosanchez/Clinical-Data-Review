@@ -1,7 +1,9 @@
-# Function: Missing values summary
+# Count missing values and calculate their percentage for each column,
+# returning the columns from highest to lowest missing percentage.
 missing_summary <- function(data) {
     
     data %>%
+        # Compute both missing-value measures for every input column.
         summarise(
             across(
                 everything(),
@@ -11,6 +13,7 @@ missing_summary <- function(data) {
                 )
             )
         ) %>%
+        # Reshape paired summary fields into one row per variable.
         pivot_longer(
             cols = everything(),
             names_to = c("variable", ".value"),
